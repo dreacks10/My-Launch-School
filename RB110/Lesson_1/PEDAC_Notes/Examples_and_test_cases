@@ -1,0 +1,18 @@
+Examples and Test cases
+  Can be used to confirm or refute assumptions
+  Answer questions and provide implicit requirements
+  Test cases are written in code and can be run to test your solution
+  Codify the rules and boundaries of the problem
+  
+SUM Even Number Rows Problem
+  
+    Imagine a sequence of consecutive even integers beginning with two. The integers are grouped in rows,
+    with the first row containing one integer, the second row two integers, the third row three 
+    integers, and so on. Given an integer representing the number of a particular row, return an 
+    integer representing the sum of all the integers in that row
+    
+
+Examples and test cases
+  Row number: 1 => Sum of integers in row: 2
+  Row number: 2 => Sum of integers in row : 10
+  Row number: 4 => Sum of integers in row: 68

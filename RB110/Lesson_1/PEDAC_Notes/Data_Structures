@@ -1,0 +1,29 @@
+Data Structures
+  Thinking in terms of data structures is an important part of the problem solving process
+  Helps reason with data logically
+  Helps interact with data at the implementation stage
+  Data structures are closely linked to the algorithm used for your solution\
+  
+  
+  
+SUM Even Number Rows Problem
+  
+    Imagine a sequence of consecutive even integers beginning with two. The integers are grouped in rows,
+    with the first row containing one integer, the second row two integers, the third row three 
+    integers, and so on. Given an integer representing the number of a particular row, return an 
+    integer representing the sum of all the integers in that row
+
+
+Data Structures:
+  Sequence of rows
+  Order of rows is important
+  Rows contain integers
+  Order of integers is important
+  
+  [
+      [2],
+      [4, 6],
+      [8, 10, 12],
+      [14, 16, 18, 20],
+      ...
+  ]

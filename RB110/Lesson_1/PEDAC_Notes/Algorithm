@@ -1,0 +1,54 @@
+Algorithms
+  -A logical sequence of steps for accomplishing a task or objective
+  -Closely related to data structures
+  -At first, keep your alorithm abstract and high level
+  -Break down steps and fill in details as needed
+  -Don't worry about efficiency at this stage
+  
+  
+SUM Even Number Rows Problem
+  
+    -Imagine a sequence of consecutive even integers beginning with two. The integers are grouped in rows,
+    with the first row containing one integer, the second row two integers, the third row three 
+    integers, and so on. Given an integer representing the number of a particular row, return an 
+    integer representing the sum of all the integers in that row
+    
+    
+Algorithm:
+  -Create an empty `rows` array/list to hold all of our rows
+  -Create a `row` array/list and add it to the overall `rows` array/list
+    -A: do a thing
+    -B: do the next thing
+  -Repeat step 2 until all the necessary rows have been created
+    -All of the rows have been created when the length of the `rows` array is equal to the input
+  -Sum the final row
+  -Return the sum
+  
+  
+Problem: Create a Row
+
+Rules:
+  -Row is an array
+  -Array contains integers
+  -Integers are consecutive even numbers
+  -Integers in each row form part of an overall sequence
+  -Rows are of different lengths
+  
+  -Input:
+    -Length of the row
+    -The starting integer
+  -Output: The row itself => [8, 10, 12]
+  
+Examples:
+  -start: 2, length: 1 => [2]
+  -start: 4, length: 2 => [4, 6]
+  -start: 8, length: 3 => [8. 10. 12]
+  
+Data structure: array
+
+Algorithm:
+  -Create an empty `row` array to contain the integers
+  -Add the starting integer
+  -Increment the starting integer by 2 to get the next integer in the sequence
+  -Repeat steps 2 and 3 until the array has reached the correct length
+  -Return the `row` array

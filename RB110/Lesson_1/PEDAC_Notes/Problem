@@ -1,0 +1,52 @@
+Understanding the Problem
+  Establish rules and define the boundaries of the problem
+  Restate the problem in your own words
+  Identify the problem requirements:
+    Explicity
+    Implicit
+  Identify inputs and outputs
+  Ask questions/identify unclear info
+  Spend enough time here. Don't rush
+  
+General Example:
+  
+  Given a string, produce a new string with every other word removed
+  
+    Explicit Requirements:
+      Input: string
+      Output: new string
+      Remove every other word from input string
+      
+    Questions:
+      What do we mean by "every other word?"
+        What is a word in this context?
+        Should we delete all the odd words, or all of the even words?
+  
+  
+  SUM Even Number Rows Problem
+  
+    Imagine a sequence of consecutive even integers beginning with two. The integers are grouped in rows,
+    with the first row containing one integer, the second row two integers, the third row three 
+    integers, and so on. Given an integer representing the number of a particular row, return an 
+    integer representing the sum of all the integers in that row
+    
+      Input: Integer representing the number of a particular row
+      Output: Integer representing the sum of all integers in that row
+      
+      Explicit: 
+        Sequence of integers
+        Sequence begins with 2
+        Integers are consecutive
+        Integers are even
+        Sequence is grouped into rows
+        Each row is incrementally larger than the last: 1, 2, 3, ...
+        
+      Implicit
+        Row 1 has 1 element, row 2 has 2 elements, etc. 
+        
+      Sequence
+        2
+        4, 6
+        8, 10, 12
+        14, 16, 18, 20
+      
